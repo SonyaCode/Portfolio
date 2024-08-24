@@ -24,6 +24,7 @@ nav {
     border-bottom: rgb(123, 123, 123) 1px solid;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 nav ul {
@@ -217,9 +218,10 @@ hr {
 .classes-list {
     position: absolute;
     line-height: 2;
+    position: absolute;
 }
 
-.sculpture-certificate {
+.certificate {
     color: white;
     text-decoration: underline;
 }
