@@ -68,7 +68,7 @@ export default function ChatbotWidget() {
                     </div>
 
             </div> :
-            <button onClick={() => setOpen(true)}className="bg-dark-bluish-purple flex p-3 rounded-[100%] cursor-pointer border-white border-2">
+            <button onClick={() => setOpen(true)}className="bg-dark-bluish-purple flex p-3 rounded-[100%] cursor-pointer border-white border-2 hover:brightness-125">
                 <img src="/assets/chatbot-icon.svg" className="w-12 h-12" alt="Chat with an AI assistant" />
             </button>
         }
